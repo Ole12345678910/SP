@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.headerbox{
+    display: flex;
+}
+
+.searchbox{
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.logoimg1{
+    display: flex;
+    height: auto;
+    width: 4rem;
+}
+
+.search-button {
+    box-shadow: 0 2px 0 0 #121212;
+    right: 5px;
+    top: 31px;
+    cursor: pointer;
+    user-select: none;
+    padding: 8px;
+    background: #fff;
+    transition: background 0.3s ease;
+    display: flex;
+}
+
+.search-button i {
+    color: #000000;
+    font-size: 1rem;
+}
+
+
+.search-button:focus {
+    background: #f0f0f0;
+}
+
+.search-input {
+    width: 0;
+    padding: 8px;
+    border: none;
+
+    transition: width 0.3s ease;
+    outline: none;
+    overflow: hidden;
+    box-shadow: 0 2px 0 0 #121212;
+}
+
+.search-button:focus + .search-input,
+.search-input:focus {
+    width: 150px;
+}
+
+.fa-bars{
+    margin: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+
+nav.hamburger {
+    display: none;
+    /* By default hide the navigation menu */
+}
+
+input#hamburger-menu {
+    display: none; /* Hide the checkbox */ 
+}
+
+input#hamburger-menu:checked ~ nav.hamburger {
+    display: block; 
+    /* Display nav.hamburger block when checkbox is checked only */ 
+}
+
+/* Style the menu itself */ 
+nav.hamburger ul { 
+    list-style-type: none;
+    display: inline-block; 
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    position: absolute;
+    top: 65px;
+    right: 0px;
+}
+
+nav.hamburger li a { 
+    text-decoration: none; 
+    color: white; 
+    background: #363636c7;
+    padding: 1rem 5px;
+    display: block; 
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border: 1px solid rgb(40, 40, 40);
+
+}
+nav.hamburger li:last-child {
+   margin-bottom: 0;
+}
+nav.hamburger li a:hover {
+    color: black; 
+    background: white;  
+}

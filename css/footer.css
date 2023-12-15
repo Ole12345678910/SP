@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+hr{
+    margin: 0.7rem;
+}
+
+p{
+    padding-top: 0.7rem;
+    font-size: 0.8rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #363636;
+    top: 100%;
+    position: sticky;
+}
+
+footer ,h2 p{
+    padding: 0.7rem;
+    color: white;
+}
+
+.subscribe, h2{
+    margin: 0 1rem;
+}
+
+.boxnmail{
+    display: flex;
+}
+
+.square-left{
+    display: flex;
+    margin: 1rem 0;
+    height: auto;
+    padding: 1rem 0 1rem 1rem;
+    border: solid white;
+    border-width: thin;
+    background-color: transparent;
+    margin-left: 1rem;
+    color: white;
+}
+.square-left p{
+    padding: 0;
+}
+
+.square-right{
+    display: flex;
+    margin: 1rem 0 1rem 1rem;
+    height: auto;
+    padding: 1rem 1.5rem;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    min-block-size: auto;
+    border: #121212;
+}
+
+.square-right:hover{
+    cursor: pointer;
+    background-color: rgba(19, 19, 19, 0.522)
+}
+
+.square-under{
+    display: flex;
+    text-decoration: underline;
+}
+
+
+.checkbox-text{
+    margin: 0 1rem;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.title1{
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.title2{
+    color: #7A7A7A;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.title3{
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+p .title3:first-child{
+    padding: 1rem;
+}
+
+.boxfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoimg{
+    display: flex;
+    max-width: 150px;
+    align-self: flex-end;
+    min-width: auto;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    line-height: 3rem;
+    padding: 1rem;
+    align-items: start;
+}
+
+.copyright{
+    text-align: right;
+    font-size: 6px;
+    margin-bottom: 0.5rem;
+}
