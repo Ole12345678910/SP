@@ -1,11 +1,5 @@
-* {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-}
-
 h1{
     font-size: 1rem;
-    padding: 0.5rem;
 }
 
 hr{
@@ -65,7 +59,7 @@ footer ,h2 p{
     border: #121212;
 }
 
-.square-right:hover{
+.square-right:hover, .read-more:hover{
     cursor: pointer;
     background-color: rgba(19, 19, 19, 0.522)
 }

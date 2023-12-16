@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.frontbox img{
+    width: 100%;
+    height: auto;
+}
+
+.frontbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.frontbox1 img{
+    min-width: 120px;
+    height: auto;
+}
+
+.frontbox1{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: auto;
+    width: 100%;
+    background-color: #00000063;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+    padding: 0 1rem 0.5rem 1rem;
+}
+
+.imgbarn{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+}
+
+.text{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 1.3rem;
+}
+
+.imgbox{
+    display: flex;
+}
+
+.kidreadbox{
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+
+.read-more{
+    width: 100px;
+    display: block; /* Use block display to ensure it appears on a new line */
+    background-color: #121212;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+}
+.vrmanbox{
+    width: 100%;
+    height: auto;
+}
+
+.text1{
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.news{
+    display: flex;
+}
+
+.news-container{
+    border: 2px solid black;
+    margin: 1rem;
+    background-color: #363636;
+}
+
+.news img {
+    width: 50%;
+}
+
+.text-container nav ul li{
+    padding: 1rem 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.text-container nav ul li a{
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.text-container{
+    height: 180px;
+}

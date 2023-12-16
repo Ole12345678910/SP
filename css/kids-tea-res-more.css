@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.imgbarn ,.imgteacher ,.imgrea ,.spaceimg{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.kid-title ,.rea-title{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.kidreadbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.7rem;
+}
+
+.kid-title1 ,.teacher-title ,.rea-title1 ,.spcmann-title1{
+    padding-top: 0.7rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.teacher-title ,.rea-title1 ,.spcmann-title1{
+    margin: 0 1rem;
+}
+
+.kidreadbox img{
+    width: 100%;
+    height: auto;
+}
+
+.librarybox img{
+    width: 100%;
+    height: auto;
+}
+
+.librarybox p{
+    padding: 0.7rem;
+}
+
+.img-container{
+    display: flex;
+    width: 100%; /* Set the width of the container */
+    height: auto; /* Set the height of the container */
+}
+
+
+.imgspcmann{
+    width: 100%; /* Set the width of the image to 100% */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.spcmann-title{
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.text-container{
+    padding-bottom: 1rem;
+    color: white;
+    background: linear-gradient(0deg, #000 35.15%, rgba(166, 207, 255, 0.00) 123.15%);
+}
+
+
