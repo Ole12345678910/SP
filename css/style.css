@@ -98,7 +98,7 @@
 }
 
 .text-container nav ul li{
-    padding: 1rem 0;
+    margin: 1rem 1rem 0 0;
     text-decoration: none;
     list-style-type: none;
 }
