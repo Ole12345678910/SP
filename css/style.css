@@ -4,8 +4,8 @@
 }
 
 .frontbox img{
+    display: block;
     width: 100%;
-    height: auto;
 }
 
 .frontbox{
@@ -14,29 +14,43 @@
 }
 
 .frontbox1 img{
+    display: block;
     min-width: 120px;
     height: auto;
 }
 
 .frontbox1{
-    object-fit: contain;
     width: 100%;
     height: auto;
     display: flex;
+    position: relative;
 }
 
 .textbox{
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    height: auto;
-    width: 100%;
-    background-color: #00000063;
-    font-size: 1.5rem;
-    font-weight: bolder;
+    align-items: end;
     color: white;
-    text-align: left;
-    padding: 0 1rem 0.5rem 1rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: #00000063;
+    width: 100%;
+    height: 40%;
+    opacity: 0;
+    transition: opacity 0.25s;
+    font-size: 1.5rem;
+}
+
+.transfrom-text{
+    color: white;
+    font-size: 1.5rem;
+    padding:  0.5rem;
+    margin: 0.5rem;
+}
+
+.frontbox1:hover .textbox{
+    opacity: 1;
 }
 
 .imgbarn{
