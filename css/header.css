@@ -86,11 +86,11 @@ nav.hamburger ul {
     right: 0px;
 }
 
-.headerbox1{
+.menu-bar{
     display: none;
 }
 
-.headerbox1 a{
+.menu-bar a{
     margin: 0 1rem;
     color: #000000;
     font-weight: bolder;
@@ -134,7 +134,7 @@ nav.hamburger li a:hover {
         display: flex;
     }
 
-    .headerbox1{
+    .menu-bar{
         display: flex;
         list-style: none;
         padding: 0;
