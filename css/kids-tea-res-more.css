@@ -78,13 +78,14 @@ body{
 
 .spaceimg{
     width: 100%;
-    height: auto;
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
 }
 
 .spcimg-conatiner{
-    max-height: 250px;
     width: 100%;
-    overflow: hidden;
 }
 
 .teleimg{
@@ -281,7 +282,7 @@ iframe{
 .highlight1{
     font-weight: 500;
     padding: 0 2rem 2rem 2rem;
-    font-size: 3vw;
+    font-size: 1rem;
     line-height: 2rem;
 }
 
@@ -303,6 +304,11 @@ iframe{
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #show{
+        display: block;
+        margin: 5px 10rem;
     }
 
     .kid-container{
@@ -355,10 +361,11 @@ iframe{
     }
 
     #imgteacher1{
-        height: 400px;
+        height: 300px;
         object-fit: cover;
         grid-row: 1;
         grid-column: 1/3;
+        object-position: top;
     }
 
     #imgteacher2{
@@ -370,9 +377,231 @@ iframe{
         margin: 1rem;
     }
 
-    .imgrea{
+    .gridbox3{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-gap: 1rem;
+    }
+
+
+    #imgrea{
         height: 400px;
         object-fit: cover;
+        grid-row: 1;
+        grid-column: 1/3;
+    }
+
+    #reatext{
+        grid-row: 2;
+        grid-column: 1/3;
+    }
+
+    #imgrea1{
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    #reatext1{
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    .gridbox{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imgmuseum{
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .imgnattmuseum{
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .gridbox1{
+        max-width: 500px;
+        grid-column: 1;
+        grid-row: 3/7;
+    }
+
+    .box-container{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+    }
+
+    #professor-news{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #energetica-exhibition{
+        grid-column: 2;
+        grid-row: 3/4;
+    }
+    #text-exh{
+        align-self: self-end;
+    }
+
+    .gridbox4{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #infotext3{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    #infotext4{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    #infotext5{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .text-container1{
+        grid-row: 3;
+        grid-column: 1;
+        height: 500px;
+        width: auto;
+        align-self: center;
+    }
+
+    .container{
+        grid-row: 3;
+        grid-column: 2;
+        height: 500px;
+        width: auto;
+        align-self: center;
+    }
+
+    .map-container{
+        grid-row: 5;
+        grid-column: 1;
+    }
+    
+    .shop-container{
+        grid-row: 5;
+        grid-column: 2;
+    }
+    
+    .img-shop{
+        margin: 1rem;
+    }
+
+    .gridbox5{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .imgspcmann{
+        grid-row: 1;
+        grid-column: 1;
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        
+    }
+
+
+    .text-container{
+        grid-row: 1;
+        grid-column: 2;
+        height: 400px;
+        padding: 0;
+    }
+    
+    .spcimg-conatiner{
+        grid-row: 2;
+        grid-column: 2;
+        height: 300px;
+    }
+
+    .biologyimg{
+        margin: 0;
+    }
+
+    .img-container3{
+        grid-row: 2;
+        grid-column: 1;
+        margin-top: 1rem;
+    }
+
+    .text-box{
+        align-self: center;
+    }
+
+    .gridbox6{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #text1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #text2{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #text3{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #text4{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #text5{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #text8{
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    #text9{
+        grid-column: 1;
+        grid-row: 9;
+    }
+
+    .imgexo{
+        grid-column: 1;
+        grid-row: 5;
     }
 
 }
