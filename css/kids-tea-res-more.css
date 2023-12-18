@@ -241,7 +241,7 @@ iframe{
 
 :target {
     background-color: yellow;
-    scroll-margin-top: 150px;
+    scroll-margin-top: 100px;
     animation: highlight 1s ease-out forwards;
 }
 

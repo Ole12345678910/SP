@@ -6,6 +6,9 @@
 .frontbox img{
     display: block;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .frontbox{
@@ -13,10 +16,14 @@
     flex-direction: column;
 }
 
+.space-box{
+    height: 230px;
+}
+
 .frontbox1 img{
-    display: block;
     min-width: 120px;
     height: auto;
+    
 }
 
 .frontbox1{
@@ -44,7 +51,7 @@
 
 .transfrom-text{
     color: white;
-    font-size: 1.5rem;
+    font-size: 7vw;
     padding:  0.5rem;
     margin: 0.5rem;
 }
@@ -115,6 +122,7 @@
     margin: 1rem 1rem 0 0;
     text-decoration: none;
     list-style-type: none;
+    padding: 0.5rem 0;
 }
 
 .text-container nav ul li a{
@@ -125,4 +133,151 @@
 
 .text-container{
     height: 180px;
+}
+
+.spa{
+    display: none;
+}
+
+/* Media query for screens with a maximum width of 1000px */
+@media (min-width: 680px) {
+    .frontbox{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .space-box{
+        max-width:1000px ;
+        height: auto;
+        grid-column: span 2
+    }
+    .frontbox1{
+        grid-row: 1/2;
+        grid-column:3/5;
+        max-width:1000px;
+    }
+    .frontbox ,.center{
+        max-width: 1000px;
+    }
+    .textbox{
+        height: 30%;
+    }
+
+    .center-box{
+        display: flex;
+        justify-content: center;
+    }
+    .center-box1{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+    }
+
+    .imgbarn{
+        padding: 0;
+        grid-row: 2/4;
+        grid-column: 1/3;
+    }
+
+    #kidtext{
+        grid-row: 1;
+        grid-column: 1;
+        align-self: self-end;
+        font-size: 1.6rem;
+    }
+
+    #readmorekid{
+        grid-row: 6;
+        grid-column: 1;
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+
+    #teachertext{
+        grid-row: 1;
+        grid-column: 3;
+        align-self: self-end;
+        font-size: 1.6rem;
+    }
+
+    #restext{
+        grid-row: 7;
+        grid-column: 1;
+        font-size: 1.6rem;
+    }
+
+    #hide{
+        display: none;
+    }
+
+    #student{
+        grid-row: 2/5;
+        grid-column: 3/7;
+    }
+    #studentreadmore{
+        grid-column: 3;
+        grid-row: 6;
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+
+    #kidread{
+        grid-row: 4/5;
+        grid-column: 1/3;
+    }
+
+    #reatext{
+        grid-row: 6;
+        grid-column: 1;
+    }
+
+    #researchers{
+        grid-row: 8;
+        grid-column: span 7;
+    }
+
+    .spa{
+        display: block;
+    }
+
+    .transfrom-text{
+        font-size: 2.5vw;
+        padding: 1rem;
+    }
+    #vrmann{
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 330px;
+        padding: 1rem;
+    }
+    #readmorerea{
+        grid-row: 9;
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+
+    .text1{
+        font-size: 1.6rem;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #left-news{
+        grid-row: 2;
+    }
+
+    #right-news{
+        grid-row: 2;
+    }
 }

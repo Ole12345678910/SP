@@ -143,3 +143,29 @@ p .title3:first-child{
     background-color: black;
     margin: 0.3rem;
 }
+
+@media (min-width: 680px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .boxfooter{
+        grid-row: 3;
+        grid-column: 2;
+    }
+    .title1{
+        grid-row: 4;
+        grid-column: 1;
+    }
+
+    .title2{
+        grid-row: 5;
+        grid-column: 1;
+    }
+
+    #csm{
+        
+    }
+
+}
