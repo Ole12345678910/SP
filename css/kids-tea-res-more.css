@@ -352,7 +352,7 @@ iframe{
         margin-right: auto;
     }
 
-    #infotext1{
+    #kid-info-text{
         grid-row: 2;
         grid-column: 1;
         font-size: 1rem;
