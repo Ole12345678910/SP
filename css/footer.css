@@ -1,16 +1,17 @@
+/* Styles for H1 */
 h1{
     font-size: 1rem;
 }
-
+/* Styles for horizontal rule */
 hr{
     margin: 1.5rem 1rem;
 }
-
+/* Styles for paragraphs */
 p{
     padding-top: 0.7rem;
     font-size: 0.8rem;
 }
-
+/* Styles for footer */
 footer{
     display: flex;
     flex-direction: column;
@@ -18,20 +19,20 @@ footer{
     top: 100%;
     position: sticky;
 }
-
+/* Styles for footer and h2 inside footer */
 footer ,h2 p{
     padding: 0.7rem;
     color: white;
 }
-
+/* Styles for subscribe and h2 */
 .subscribe, h2{
     margin: 0 1rem;
 }
-
+/* Styles for box and mail */
 .boxnmail{
     display: flex;
 }
-
+/* Styles for left square */
 .square-left{
     display: flex;
     margin: 1rem 0;
@@ -43,10 +44,11 @@ footer ,h2 p{
     margin-left: 1rem;
     color: white;
 }
+/* Styles for paragraph inside left square */
 .square-left p{
     padding: 0;
 }
-
+/* Styles for right square */
 .square-right{
     display: flex;
     margin: 1rem 0 1rem 1rem;
@@ -58,28 +60,28 @@ footer ,h2 p{
     min-block-size: auto;
     border: #121212;
 }
-
+/* Styles for hover effect on right square and read-more */
 .square-right:hover, .read-more:hover{
     cursor: pointer;
     background-color: rgba(19, 19, 19, 0.522)
 }
-
+/* Styles for square under */
 .square-under{
     display: flex;
     text-decoration: underline;
 }
 
-
+/* Styles for checkbox text */
 .checkbox-text{
     margin: 0 1rem;
 }
-
+/* Styles for title */
 .title{
     font-weight: bolder;
     font-size: 1rem;
     padding-left: 1rem;
 }
-
+/* Styles for title1 */
 .title1{
     color: white;
     font-size: 1rem;
@@ -87,36 +89,36 @@ footer ,h2 p{
     text-decoration: underline;
     padding: 1rem 1rem 0 1rem;
 }
-
+/* Styles for title2 */
 .title2{
     color: #7A7A7A;
     text-align: left;
     padding-left: 1rem;
 }
-
+/* Styles for title3 */
 .title3{
     color: white;
     font-size: 1rem;
     font-weight: bolder;
     text-decoration: underline;
 }
-
+/* Styles for first child of title3 inside paragraph */
 p .title3:first-child{
     padding: 1rem;
 }
-
+/* Styles for boxfooter */
 .boxfooter{
     display: flex;
     justify-content: space-between;
 }
-
+/* Styles for logo image */
 .logoimg{
     display: flex;
     max-width: 150px;
     align-self: flex-end;
     min-width: auto;
 }
-
+/* Styles for footer navigation */
 .footer-nav{
     display: flex;
     flex-direction: column;
@@ -126,31 +128,33 @@ p .title3:first-child{
     padding: 1rem;
     align-items: start;
 }
-
+/* Styles for copyright */
 .copyright{
     text-align: right;
     font-size: 6px;
     margin-bottom: 0.5rem;
 }
-
+/* Styles for social icons container */
 .socials{
     padding: 1.5rem 1rem 0 1rem;
 }
-
+/* Styles for social icons */
 .socials i{
     border-radius: 50%;
     padding: 0.5rem;
     background-color: black;
     margin: 0.3rem;
 }
-
+/* Media query for screens with a minimum width of 680px */
 @media (min-width: 680px){
+    /* Apply grid layout to footer container */
     .footer-container{
         margin-top: 2rem;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1, 1fr);
     }
+    /* Position and style elements within the grid */
     .boxfooter{
         grid-column: 4/6;
         grid-row: 2/9;
@@ -194,18 +198,19 @@ p .title3:first-child{
         grid-column: 4/6;
         font-size: 0.7rem;
     }
+    /* Apply max-width and centering to certain elements */
     .center{
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
-
+    /* Adjust margin and max-width for horizontal rule */
     hr{
         margin-left: auto;
         margin-right: auto;
         max-width: 900px;
     }
-
+    /* Position and style logo image within the grid */
     .logoimg{
         grid-row: 9;
         grid-column: 5;
