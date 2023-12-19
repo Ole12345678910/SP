@@ -1,19 +1,20 @@
+/* Styles for header box */
 .headerbox{
     display: flex;
 }
-
+/* Styles for search box */
 .searchbox{
     display: flex;
     align-items: center;
     margin-right: 4rem;
 }
-
+/* Styles for logo image 1 */
 .logoimg1{
     display: flex;
     height: auto;
     width: 4rem;
 }
-
+/* Styles for search button */
 .search-button {
     box-shadow: 0 2px 0 0 #121212;
     right: 5px;
@@ -25,33 +26,32 @@
     transition: background 0.3s ease;
     display: flex;
 }
-
+/* Styles for search button icon */
 .search-button i {
     color: #000000;
     font-size: 1rem;
 }
 
-
+/* Styles for focus on search button */
 .search-button:focus {
     background: #f0f0f0;
 }
-
+/* Styles for search input */
 .search-input {
     width: 0;
     padding: 8px;
     border: none;
-
     transition: width 0.3s ease;
     outline: none;
     overflow: hidden;
     box-shadow: 0 2px 0 0 #121212;
 }
-
+/* Styles for focus on search button and search input */
 .search-button:focus + .search-input,
 .search-input:focus {
     width: 150px;
 }
-
+/* Styles for bars icon */
 .fa-bars{
     margin: 1rem;
     font-size: 1.5rem;
@@ -59,16 +59,16 @@
     position: absolute;
     right: 10px;
 }
-
+/* Styles for hamburger navigation */
 nav.hamburger {
     display: none;
     /* By default hide the navigation menu */
 }
-
+/* Styles for hamburger menu checkbox */
 input#hamburger-menu {
     display: none; /* Hide the checkbox */ 
 }
-
+/* Styles for checked hamburger menu */
 input#hamburger-menu:checked ~ nav.hamburger {
     display: block; 
     /* Display nav.hamburger block when checkbox is checked only */ 
@@ -85,11 +85,11 @@ nav.hamburger ul {
     top: 65px;
     right: 0px;
 }
-
+/* Styles for hamburger menu itself */
 .menu-bar{
     display: none;
 }
-
+/* Styles for menu bar links */
 .menu-bar a{
     margin: 0 1rem;
     color: #000000;
@@ -97,7 +97,7 @@ nav.hamburger ul {
     font-size: 0.9rem;
     text-decoration: none;
 }
-
+/* Styles for hamburger menu links */
 nav.hamburger li a { 
     text-decoration: none; 
     color: white; 
@@ -110,15 +110,18 @@ nav.hamburger li a {
     border: 1px solid rgb(40, 40, 40);
 
 }
+/* Styles for last child of hamburger menu links */
 nav.hamburger li:last-child {
    margin-bottom: 0;
 }
+/* Styles for hover effect on hamburger menu links */
 nav.hamburger li a:hover {
     color: black; 
     background: white;  
 }
-
+/* Media query for screens with a minimum width of 680px */
 @media (min-width: 680px){
+    /* Apply styles to header box for larger screens */
     .headerbox{
         display: flex;
         max-width: 1000px;
@@ -126,14 +129,15 @@ nav.hamburger li a:hover {
         margin-right: auto;
         justify-content: space-between;
     }
+    /* Hide menu with ID 'menu' on larger screens */
     #menu{
         display: none;
     }
-
+    /* Adjust styles for header box on larger screens */
     .headerbox{
         display: flex;
     }
-
+    /* Display menu bar as flex with specific styling */
     .menu-bar{
         display: flex;
         list-style: none;

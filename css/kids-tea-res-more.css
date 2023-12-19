@@ -1,8 +1,9 @@
+/* Apply styles to all elements, setting margin to 0 and using 'Lato' font */
 * {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
-
+/* Styles for various image containers */
 .img-container,
 .img-barn,
 .imgteacher,
@@ -21,31 +22,30 @@
     width: 100%;
     height: auto;
 }
-
-
+/* Styles for the body, enabling smooth scrolling */
 body{
     scroll-behavior: smooth;
 }
-
+/* Styles for the kidreadbox, arranging items in a column and justifying content in the center */
 .kidreadbox{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
+/* Styles for information text */
 .info-text{
     font-size: 1.2rem;
     padding: 1rem;
     color: #000;
     font-weight: bolder;
 }
-
+/* Styles for front information text */
 .info-text-front{
     font-size: 1.5rem;
     padding: 1rem;
     font-weight: bolder;
 }
-
+/* Styles for specific information texts */
 .info-text1
 ,.info-text2{
     font-weight: 500;
@@ -53,18 +53,18 @@ body{
     font-size: 1rem;
     line-height: 2rem;
 }
-
+/* Styles for library box paragraphs */
 .librarybox p{
     padding: 0.7rem;
 }
 
-
+/* Styles for text container, with a linear gradient background */
 .text-container{
     padding-bottom: 1rem;
     color: white;
     background: linear-gradient(0deg, #0E0E0C 35.15%, rgba(166, 207, 255, 0.00) 123.15%);
 }
-
+/* Styles for space image with cover and object positioning */
 .spaceimg{
     width: 100%;
     height: 250px;
@@ -76,29 +76,29 @@ body{
 .spcimg-conatiner{
     width: 100%;
 }
-
+/* Styles for tele image */
 .teleimg{
     display: flex;
     align-self: start;
     height: 200px;
     padding: 1rem;
 }
-
+/* Styles for mammoth image */
 .mammothimg{
     width: 100%;
     height: auto;
 }
-
+/* Styles for skjellet image */
 .skjelletimg{
     margin: 1rem 0;
 }
-
+/* Styles for biology image */
 .biologyimg{
     width: 100%;
     height: auto;
     margin: 1rem 0;
 }
-
+/* Styles for museum image, with specific grid placement */
 .imgmuseum {
     height: auto;
     width: 100%;
@@ -106,28 +106,28 @@ body{
     grid-row: 1/3;
     grid-column: 1/3; 
 }
-
+/* Styles for grid box with overflow hidden and specific grid template */
 .gridbox{
     overflow: hidden;
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 4fr 1fr;
 }
-
+/* Styles for container text within the grid */
 .container-text{
     align-self: end;
     grid-row: 1/3;
     grid-column: 1/3;
     background-color: rgba(0, 0, 0, 0.318);
 }
-
+/* Styles for news information text */
 .info-text-news{
     font-size: 1.3rem;
     color: white;
     padding: 1rem 1rem 0.5rem 1rem;
     font-weight: bolder;
 }
-
+/* Styles for specific news information text */
 .info-text-news1{
     font-size: 2rem;
     color: white;
@@ -135,7 +135,7 @@ body{
     font-weight: bolder;
     text-transform: uppercase;
 }
-
+/* Styles for nattmuseum image, with specific grid placement */
 .imgnattmuseum{
     width: 100%;
     height: auto;
@@ -143,7 +143,7 @@ body{
     grid-row: 1/3;
     grid-column: 1/3;
 }
-
+/* Styles for grid box 1 with margin, overflow hidden, and specific grid template */
 .gridbox1{
     margin: 0 1rem;
     overflow: hidden;
@@ -151,7 +151,7 @@ body{
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 4fr 1fr;
 }
-
+/* Styles for specific news information text 2 */
 .info-text-news2{
     align-self: self-end;
     grid-row: 1/3;
@@ -161,20 +161,20 @@ body{
     padding: 1rem;
     font-weight: bolder;
 }
-
+/* Styles for grid box container with background color and specific grid placement */
 .gridbox-container{
     background-color: #E7E7E7;
     grid-row: 3;
     grid-column: 1/3;
 }
-
+/* Styles for info textnw with specific padding and line-height */
 .info-textnw{
     font-weight: 500;
     padding: 0 2rem 2rem 2rem;
     font-size: 1rem;
     line-height: 2rem;
 }
-
+/* Styles for text container 1, with column flex, centered, and specific background color */
 .text-container1{
     flex-direction: column;
     display: flex;
@@ -182,38 +182,38 @@ body{
     text-align: center;
     background-color: #E7E7E7;
 }
-
+/* Styles for big text with specific padding, color, font size, and weight */
 .big-text{
     padding: 2rem 0;
     color: #000;
     font-size: 2rem;
     font-weight: bolder;
 }
-
+/* Styles for open text with specific font weight and size */
 .open-text{
     font-weight: bolder;
     font-size: 1rem;
 }
-
+/* Styles for grey text with specific color, font weight, and padding */
 .grey-text{
     color: rgba(0, 0, 0, 0.60);
     font-weight: 500;
 }
-
+/* Styles for last child of grey text with specific padding */
 .grey-text:last-child{
     padding-bottom: 3rem;
 }
-
+/* Styles for iframe with width 100% and height 300px */
 iframe{
     width: 100%;
     height: 300px;
 }
-
+/* Styles for map container with margin, border, and specific padding */
 .map-container{
     margin: 1rem;
     border: 1px solid black;
 }
-
+/* Styles for map text with background color, font size, padding, font weight, and color */
 .map-text{
     background-color: #363636;
     font-size: 1.5rem;
@@ -221,71 +221,72 @@ iframe{
     font-weight: bolder;
     color: white;
 }
-
+/* Styles for highlighted text with specific padding, font weight, font size, and line height */
 .highlight{
     font-weight: 500;
     padding: 0 2rem 2rem 2rem;
     font-size: 1rem;
     line-height: 2rem;
 }
-
+/* Styles for target with background color yellow, scroll margin top, and animation */
 :target {
     background-color: yellow;
     scroll-margin-top: 100px;
-    animation: highlight 1s ease-out forwards;
+    animation: highlight 2s ease-out forwards;
 }
-
+/* Keyframes for highlight animation */
 @keyframes highlight{
     to {
         background-color: transparent;
     }
 }
-
+/* Styles for target with background color yellow, scroll margin top, and animation 1 */
 :target {
     background-color: yellow;
     scroll-margin-top: 200px;
-    animation: highlight 1s ease-out forwards;
+    animation: highlight 2s ease-out forwards;
 }
-
+/* Keyframes for highlight1 animation */
 @keyframes highlight1{
     to {
         background-color: transparent;
     }
 }
 
-
+/* Styles for container with grid display, margin, overflow hidden, and specific grid template */
 .container{
     display: grid;
     margin: 1rem;
     overflow: hidden;
     grid-template-columns: 1fr 1fr;
 }
-
+/* Styles for imgmann with object fit, margin right, width 100%, and height 100% */
 .imgmann{
     object-fit: cover;
     margin-right: 1rem;
     width: 100%;
     height: 100%;
 }
-
+/* Styles for highlighted1 text with specific padding, font weight, font size, and line height */
 .highlight1{
     font-weight: 500;
     padding: 0 2rem 2rem 2rem;
     font-size: 1rem;
     line-height: 2rem;
 }
-
+/* Styles for shop container with margin, border, and specific grid placement */
 .shop-container{
     margin: 1rem;
     border: 1px solid black;
 }
-
+/* Styles for img-shop with max width and max height */
 .img-shop{
     max-width: 200px;
     max-height: 200px;
 }
-
+/* Media query for screens with a minimum width of 680px */
 @media (min-width: 680px){
+        /* Styles for img-barn-container with height, width, overflow hidden, max width, margin, and auto */
     .img-barn-container{
         height: 250px;
         width: 100%;
@@ -294,12 +295,12 @@ iframe{
         margin-left: auto;
         margin-right: auto;
     }
-
+    /* Styles for show with display block and margin */
     .show{
         display: block;
         margin: 5px 10rem;
     }
-
+    /* Styles for kid container with grid display, template columns, rows, gap, max width, and margin */
     .kid-container{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -310,14 +311,14 @@ iframe{
         margin-right: auto;
         object-fit: cover;
     }
-
+    /* Styles for infotext with specific grid column, row, font size, and margin */
     #infotext{
         grid-column: span 2;
         grid-row: 1/2;
         font-size: 1.3rem;
         margin: 1rem 0;
     }
-
+    /* Styles for kidreadbox and librarybox with specific grid row placement */
     .kidreadbox{
         grid-row: 2;
         grid-column: 1;
@@ -327,11 +328,11 @@ iframe{
         grid-row: 2;
     
     }
-
+    /* Styles for hr with display none */
     hr{
         display: none;
     }
-
+    /* Styles for gridbox2 with grid display, template rows, columns, max width, and margin */
     .gridbox2{
         display: grid;
         grid-template-rows: repeat(2, 1fr);
@@ -340,7 +341,7 @@ iframe{
         margin-left: auto;
         margin-right: auto;
     }
-
+    /* Styles for kid-info-text and imgteacher1, imgteacher2 with specific grid row, column placement, height, width, object fit, and object position */
     #kid-info-text ,#kid-info-text1{
         grid-row: 2;
         grid-column: 1;
@@ -367,6 +368,7 @@ iframe{
     }
 
     .gridbox3{
+         /* Define a grid with one row and two columns */
         display: grid;
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: repeat(2, 1fr);
@@ -376,51 +378,51 @@ iframe{
         grid-gap: 1rem;
     }
 
-
+    /* Styles for the first image in the grid */
     #imgrea{
         height: 400px;
         object-fit: cover;
         grid-row: 1;
         grid-column: 1/3;
     }
-
+    /* Styles for the first text in the grid */
     #reatext{
         grid-row: 2;
         grid-column: 1/3;
     }
-
+    /* Styles for the second image in the grid */
     #imgrea1{
         grid-row: 3;
         grid-column: 1;
     }
-
+    /* Styles for the second text in the grid */
     #reatext1{
         grid-row: 3;
         grid-column: 2;
     }
-
+    /* Styles for another grid with maximum width and centered */
     .gridbox{
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
-
+    /* Styles for an image with specific height and object-fit */
     .imgmuseum{
         height: 300px;
         object-fit: cover;
     }
-
+    /* Styles for another image with specific height and object-fit */
     .imgnattmuseum{
         height: 400px;
         object-fit: cover;
     }
-
+    /* Styles for a different grid with specific width and gap */
     .gridbox1{
         max-width: 500px;
         grid-column: 1;
         grid-row: 3/7;
     }
-
+    /* Styles for a box container with a grid layout */
     .box-container{
         display: grid;
         grid-template-rows: repeat(1, 1fr);
@@ -429,20 +431,21 @@ iframe{
         margin-right: auto;
         max-width: 1000px;
     }
-
+    /* Styles for a specific news element in the grid */
     #professor-news{
         grid-column: 1;
         grid-row: 2;
     }
-
+    /* Styles for another element in the grid related to an exhibition */
     #energetica-exhibition{
         grid-column: 2;
         grid-row: 3/4;
     }
+    /* Styles for text related to the exhibition */
     #text-exh{
         align-self: self-end;
     }
-
+    /* Styles for another grid with specific width and grid layout */
     .gridbox4{
         max-width: 1000px;
         margin-left: auto;
@@ -451,22 +454,22 @@ iframe{
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: repeat(2, 1fr);
     }
-
+    /* Styles for information text within the grid */
     #infotext3{
         grid-row: 1;
         grid-column: 1;
     }
-
+    /* Styles for more information text within the grid */
     #infotext4{
         grid-row: 2;
         grid-column: 1;
     }
-
+    /* Styles for additional information text within the grid */
     #infotext5{
         grid-row: 2;
         grid-column: 2;
     }
-
+    /* Styles for a text container within the grid */
     .text-container1{
         grid-row: 3;
         grid-column: 1;
@@ -474,7 +477,7 @@ iframe{
         width: auto;
         align-self: center;
     }
-
+    /* Styles for a container within the grid */
     .container{
         grid-row: 3;
         grid-column: 2;
@@ -482,21 +485,21 @@ iframe{
         width: auto;
         align-self: center;
     }
-
+    /* Styles for a map container within the grid */
     .map-container{
         grid-row: 5;
         grid-column: 1;
     }
-    
+    /* Styles for a shop container within the grid */
     .shop-container{
         grid-row: 5;
         grid-column: 2;
     }
-    
+    /* Styles for images within the shop container */
     .img-shop{
         margin: 1rem;
     }
-
+    /* Styles for another grid with specific width and grid layout */
     .gridbox5{
         max-width: 1000px;
         margin-left: auto;
@@ -505,45 +508,43 @@ iframe{
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: repeat(2, 1fr);
     }
-
+    /* Styles for an image related to space exploration */
     .imgspcmann{
         grid-row: 1;
         grid-column: 1;
         height: 400px;
         width: 100%;
         object-fit: cover;
-        object-position: top;
-        
+        object-position: top;   
     }
-
-
+    /* Styles for a text container related to space exploration */
     .text-container{
         grid-row: 1;
         grid-column: 2;
         height: 400px;
         padding: 0;
     }
-    
+    /* Styles for another container related to space exploration */
     .spcimg-conatiner{
         grid-row: 2;
         grid-column: 2;
         height: 300px;
     }
-
+    /* Styles for a specific image related to biology */
     .biologyimg{
         margin: 0;
     }
-
+    /* Styles for another grid with specific width and grid layout */
     .img-container3{
         grid-row: 2;
         grid-column: 1;
         margin-top: 1rem;
     }
-
+    /* Styles for a text box related to ecology */
     .text-box-eco{
         align-self: center;
     }
-
+    /* Styles for another grid with specific width and grid layout */
     .gridbox6{
         display: grid;
         grid-template-rows: repeat(1, 1fr);
@@ -552,42 +553,42 @@ iframe{
         margin-left: auto;
         margin-right: auto;
     }
-
+    /* Styles for the first text in the grid */
     #text1{
         grid-column: 1;
         grid-row: 1;
     }
-
+    /* Styles for the second text in the grid */
     #text2{
         grid-column: 1;
         grid-row: 2;
     }
-
+    /* Styles for the third text in the grid */
     #text3{
         grid-column: 1;
         grid-row: 3;
     }
-
+    /* Styles for the fourth text in the grid */
     #text4{
         grid-column: 2;
         grid-row: 1;
     }
-
+    /* Styles for the fifth text in the grid */
     #text5{
         grid-column: 2;
         grid-row: 2;
     }
-
+    /* Styles for the eighth text in the grid */
     #text8{
         grid-column: 1;
         grid-row: 6;
     }
-
+    /* Styles for the ninth text in the grid */
     #text9{
         grid-column: 1;
         grid-row: 9;
     }
-
+    /* Styles for an image related to exoplanets */
     .imgexo{
         grid-column: 1;
         grid-row: 5;
