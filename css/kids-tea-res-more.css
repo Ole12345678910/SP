@@ -4,20 +4,19 @@
     font-family: 'Lato', sans-serif;
 }
 /* Styles for various image containers */
-.img-container,
 .img-barn,
 .imgteacher,
-.imgrea,
-.aiimg,
-.skjelletimg,
-.ecoimg,
-.imgexo,
+.img-rea,
+.ai-img,
+.skjellet-img,
+.eco-img,
+.img-exo,
 .kidreadbox img,
 .librarybox img,
-.imgmuseum,
-.imgnattmuseum,
-.imgspcmann,
-.biologyimg {
+.img-museum,
+.img-natt-museum,
+.img-spc-mann,
+.biology-img {
     display: flex;
     width: 100%;
     height: auto;
@@ -89,17 +88,17 @@ body{
     height: auto;
 }
 /* Styles for skjellet image */
-.skjelletimg{
+.skjellet-img{
     margin: 1rem 0;
 }
 /* Styles for biology image */
-.biologyimg{
+.biology-img{
     width: 100%;
     height: auto;
     margin: 1rem 0;
 }
 /* Styles for museum image, with specific grid placement */
-.imgmuseum {
+.img-museum {
     height: auto;
     width: 100%;
     display: grid;
@@ -136,7 +135,7 @@ body{
     text-transform: uppercase;
 }
 /* Styles for nattmuseum image, with specific grid placement */
-.imgnattmuseum{
+.img-natt-museum{
     width: 100%;
     height: auto;
     display: grid;
@@ -224,7 +223,7 @@ iframe{
 /* Styles for highlighted text with specific padding, font weight, font size, and line height */
 .highlight{
     font-weight: 500;
-    padding: 0 2rem 2rem 2rem;
+    padding: 1rem;
     font-size: 1rem;
     line-height: 2rem;
 }
@@ -407,12 +406,12 @@ iframe{
         margin-right: auto;
     }
     /* Styles for an image with specific height and object-fit */
-    .imgmuseum{
+    .img-museum{
         height: 300px;
         object-fit: cover;
     }
     /* Styles for another image with specific height and object-fit */
-    .imgnattmuseum{
+    .img-natt-museum{
         height: 400px;
         object-fit: cover;
     }
@@ -509,7 +508,7 @@ iframe{
         grid-template-columns: repeat(2, 1fr);
     }
     /* Styles for an image related to space exploration */
-    .imgspcmann{
+    .img-spc-mann{
         grid-row: 1;
         grid-column: 1;
         height: 400px;
@@ -531,14 +530,13 @@ iframe{
         height: 300px;
     }
     /* Styles for a specific image related to biology */
-    .biologyimg{
+    .biology-img{
         margin: 0;
     }
     /* Styles for another grid with specific width and grid layout */
     .img-container3{
         grid-row: 2;
         grid-column: 1;
-        margin-top: 1rem;
     }
     /* Styles for a text box related to ecology */
     .text-box-eco{
@@ -589,7 +587,7 @@ iframe{
         grid-row: 9;
     }
     /* Styles for an image related to exoplanets */
-    .imgexo{
+    .img-exo{
         grid-column: 1;
         grid-row: 5;
     }
