@@ -3,17 +3,28 @@
     font-family: 'Lato', sans-serif;
 }
 
-body{
-    scroll-behavior: smooth;
-}
-
-
-.imgbarn ,.imgteacher 
-,.imgrea ,.aiimg
-,.skjelletimg ,.ecoimg ,.imgexo{
+.img-container,
+.imgbarn,
+.imgteacher,
+.imgrea,
+.aiimg,
+.skjelletimg,
+.ecoimg,
+.imgexo,
+.kidreadbox img,
+.librarybox img,
+.imgmuseum,
+.imgnattmuseum,
+.imgspcmann,
+.biologyimg {
     display: flex;
     width: 100%;
     height: auto;
+}
+
+
+body{
+    scroll-behavior: smooth;
 }
 
 .kidreadbox{
@@ -43,31 +54,8 @@ body{
     line-height: 2rem;
 }
 
-.kidreadbox img{
-    width: auto;
-    height: auto;
-    padding: 0 0.7rem;
-}
-
-.librarybox img{
-    width: 100%;
-    height: auto;
-}
-
 .librarybox p{
     padding: 0.7rem;
-}
-
-.img-container{
-    display: flex;
-    width: 100%; /* Set the width of the container */
-    height: auto; /* Set the height of the container */
-}
-
-
-.imgspcmann{
-    width: 100%; /* Set the width of the image to 100% */
-    height: auto; /* Maintain the aspect ratio */
 }
 
 .text-container{
