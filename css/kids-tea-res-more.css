@@ -306,7 +306,7 @@ iframe{
         margin-right: auto;
     }
 
-    #show{
+    .show{
         display: block;
         margin: 5px 10rem;
     }
